@@ -1,0 +1,28 @@
+using System;
+
+class Estudiante
+{
+    static void Main(string[] args)
+    {
+        string id = "1751256320";
+        string nombres = "Jhoel Sebastian";
+        string apellidos = "Sarango Aragon";
+        string direccion = "Cesar Baquero OE17-31";
+        string telefono1 = "0984606055";
+        string telefono2 = "0983138354";
+        string telefono3 = "5115549";
+
+        Console.WriteLine("REGISTRO DE ESTUDIANTE");
+        Console.WriteLine("----------------------");
+        Console.WriteLine("ID: " + id);
+        Console.WriteLine("Nombres: " + nombres);
+        Console.WriteLine("Apellidos: " + apellidos);
+        Console.WriteLine("Dirección: " + direccion);
+        Console.WriteLine("Teléfonos:");
+        Console.WriteLine("- " + telefono1);
+        Console.WriteLine("- " + telefono2);
+        Console.WriteLine("- " + telefono3);
+
+        Console.ReadKey();
+    }
+}
